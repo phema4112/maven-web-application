@@ -12,11 +12,11 @@ node {
     }
     stage('build'){
         sh "${MAVENHOME}/bin/mvn clean package"
-    }
-    /*	
+    }	
     stage('execute sonarqube report'){
         sh "${MAVENHOME}/bin/mvn clean sonar:sonar"
     }
+    */
     stage('upload artifact into nexus'){
         sh "${MAVENHOME}/bin/mvn clean deploy"
     }
