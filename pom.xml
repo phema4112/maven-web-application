@@ -105,7 +105,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <urlhttp://35.154.198.101:8081/repository/skynet-snapshot/</url>
+	      <url>http://35.154.198.101:8081/repository/skynet-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
