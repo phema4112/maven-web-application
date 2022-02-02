@@ -13,6 +13,7 @@ node {
     stage('build'){
         sh "${MAVENHOME}/bin/mvn clean package"
     }
+    /*	
     stage('execute sonarqube report'){
         sh "${MAVENHOME}/bin/mvn clean sonar:sonar"
     }
@@ -30,4 +31,5 @@ node {
         mihuntechnolgies,
         9787721334.''', subject: 'Build Over...!!', to: 'palukuruhemalatha4112@gmail.com'
     }
+    */
 }
