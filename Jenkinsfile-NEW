@@ -1,4 +1,4 @@
-node('labels'){
+node('nodes'){
     def MAVENHOME = tool name: "maven 3.8.2"
 	echo "GitHub Branch Name ${env.BRANCH_NAME}"
 	echo "GitHub Job Number ${env.BUILD_NUMBER}"
